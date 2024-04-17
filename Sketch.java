@@ -2,7 +2,7 @@ import processing.core.PApplet;
 
 public class Sketch extends PApplet {
 	
-	int screenSize = 400;
+	int screenSize = 800;
   /**
    * Called once at the beginning of execution, put your size all in this method
    */
@@ -25,7 +25,7 @@ public class Sketch extends PApplet {
   public void draw() {
 	  for(int x = 0; x < 9; x++){
       for(int y = 0; y < 9; y++){
-        drawFlower(8, 100, -200+50*x, -200+50*y);
+        drawFlower(8, 100, -400+100*x, -400+100*y);
       }
     }
   }
